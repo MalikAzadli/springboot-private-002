@@ -5,13 +5,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * http://localhost:9000/users
+ * http://localhost:9000/calc
  */
 
 @SpringBootApplication
 public class Application {
 
-  public static void main(String[] args) {
-    SpringApplication.run(Application.class);
-  }
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class);
+    }
 }
 
