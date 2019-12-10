@@ -15,8 +15,8 @@ public class CalculatorController {
     }
 
     @GetMapping("/calc")
-    public String operate(@RequestParam("op1") String op1, @RequestParam("op2") String op2, @RequestParam("op") String op) {
-        return calculator.operate(op1, op2, op);
+    public String operate(@RequestParam("op1") String op1, @RequestParam("op2") String oper2, @RequestParam("op") String op) {
+        return calculator.operate(op1, oper2, op);
     }
 
     @GetMapping("/calcs")
